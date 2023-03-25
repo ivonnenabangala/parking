@@ -48,37 +48,37 @@ body {
 <div class="row" style="text-align: center;">
 <div class="card col-sm-5" style="margin-left: 10%;">
   <div class="container" style="align-items: center;">
-    <h3><b>Tom Mboya Street</b></h3> 
-    <input type="text" id="duration" placeholder="Parking duration in seconds">
+    <h3><b>Ndagani Market</b></h3> 
+    <input type="text" id="duration" placeholder="Enter parking duration in minutes">
   	<div class="row">
-	  <div class="col">Lot 1
+	  <div class="col">Gate A Lot
 	  	<p>
-	  	<button class="button" id="slot1" onclick="disableSlot('slot1')">Slot 1</button>
-		<button class="button" id="slot2" onclick="disableSlot('slot2')">Slot 2</button>
+	  	<button class="button" id="slot1" onclick="disableSlot('slot1')">A1</button>
+		<button class="button" id="slot2" onclick="disableSlot('slot2')">A2</button>
 	   </p>
 	   <p>
-		  <a href="register.jsp"><button class="button" id="t3">slot3</button></a>
-		  <a href="register.jsp"><button class="button" id="t4">slot4</button></a>
+		  <button class="button" id="slot3" onclick="disableSlot('slot3')">A3</button>
+		  <button class="button" id="slot4" onclick="disableSlot('slot4')">A4</button>
 	   </p>
 	  </div>
-	  <div class="col">Lot 2
+	  <div class="col">Gate G Lot
 	  	<p>
-		  <a href="register.jsp"><button class="button" id="t5">slot5</button></a>
-		  <a href="register.jsp"><button class="button" id="t6">slot6</button></a>
+		  <button class="button" id="slot5" onclick="disableSlot('slot5')">G1</button>
+		  <button class="button" id="slot6" onclick="disableSlot('slot6')">G2</button>
 		 </p>
 		 <p>
-		  <a href="register.jsp"><button class="button" id="t7">slot7</button></a>
-		  <a href="register.jsp"><button class="button" id="t8">slot8</button></a>
+		  <button class="button" id="slot7" onclick="disableSlot('slot7')">G3</button>
+		  <button class="button" id="slot8" onclick="disableSlot('slot8')">G4</button>
 	     </p>
 	     <p>
-		  <a href="register.jsp"><button class="button" id="t9">slot9</button></a>
-		  <a href="register.jsp"><button class="button" id="t10">slot10</button></a>
+		  <button class="button" id="slot9" onclick="disableSlot('slot9')">G5</button>
+		  <button class="button" id="slot10" onclick="disableSlot('slot10')">G6</button>
 	     </p>
 	  </div>
-	  <div class="col">Lot 3
+	  <div class="col">Lowlands Hotel Lot
 		 <p>
-		  <a href="register.jsp"><button class="button" id="t11">slot11</button></a>
-		  <a href="register.jsp"><button class="button" id="t12">slot12</button></a>
+		  <button class="button" id="slot11" onclick="disableSlot('slot11')">L1</button>
+		  <button class="button" id="slot12" onclick="disableSlot('slot12')">L2</button>
 		 </p>
 	  </div>
 	</div>
@@ -87,95 +87,41 @@ body {
 </div>
 <div class="card col-sm-5">
   <div class="container" style="text-align: center;">
-    <h3><b>Kimathi Street</b></h3> 
+    <h3><b>Chuka Town</b></h3> 
+    <input type="text" id="duration" placeholder="Enter Parking duration in minutes">
     <div class="row">
-	  <div class="col">Cars
+	  <div class="col">Chuka Law Courts Lot
 	  	<p>
-	  	  <a href="registration.html"><button class="button">slot1</button></a>
-		  <a href="register.jsp"><button class="button">slot2</button></a>
+	  	  <button class="button" id="slot13" onclick="disableSlot('slot13')">CLC1</button>
+		  <button class="button" id="slot14" onclick="disableSlot('slot14')">CLC2</button>
 	   </p>
 	   <p>
-		  <a href="register.jsp"><button class="button">slot3</button></a>
-		  <a href="register.jsp"><button class="button">slot4</button></a>
+		  <button class="button" id="slot15" onclick="disableSlot('slot15')">CLC3</button>
+		  <button class="button" id="slot16" onclick="disableSlot('slot16')">CLC4</button>
 	   </p>
 	  </div>
-	  <div class="col">Motorbikes/bicycles
+	  <div class="col">Magunas Lot
 	  	<p>
-		  <a href="register.jsp"><button class="button">slot5</button></a>
-		  <a href="register.jsp"><button class="button">slot6</button></a>
+		  <button class="button" id="slot17" onclick="disableSlot('slot17')">M1</button>
+		  <button class="button" id="slot18" onclick="disableSlot('slot18')">M2</button>
 		 </p>
 		 <p>
-		  <a href="register.jsp"><button class="button">slot7</button></a>
-		  <a href="register.jsp"><button class="button">slot8</button></a>
+		  <button class="button" id="slot19" onclick="disableSlot('slot19')">M3</button>
+		  <button class="button" id="slot20" onclick="disableSlot('slot20')">M4</button>
 	     </p>
 	     <p>
-		  <a href="register.jsp"><button class="button">slot9</button></a>
-		  <a href="register.jsp"><button class="button">slot10</button></a>
+		  <button class="button" id="slot21" onclick="disableSlot('slot21')">M5</button>
+		  <button class="button" id="slot22" onclick="disableSlot('slot22')">M6</button>
 	     </p>
-	  </div>
-	  <div class="col">Trucks
-		 <p>
-		  <a href="register.jsp"><button class="button">slot11</button></a>
-		  <a href="register.jsp"><button class="button">slot12</button></a>
-		 </p>
 	  </div>
 	</div>
     <p>Architect and Engineer</p> 
   </div>
 </div>
-<div class="card col-sm-5">
-  <div class="container" style="text-align: center;">
-    <h3><b>Haile Selassie Avenue</b></h3> 
-    <div class="row">
-	  <div class="col">Cars
-	   <p>
-		  <a href="register.jsp"><button class="button">slot3</button></a>
-		  <a href="register.jsp"><button class="button">slot5</button></a>
-	   </p>
-	  </div>
-	  
-    <p>Architect and Engineer</p> 
-  </div>
-</div>
-</div>
 </div>
 
 
-<script>
-  function disableSlot(slotId) {
-    var slot = document.getElementById(slotId);
-    var duration = document.getElementById('duration').value;
-    if (!duration) { // if no duration is entered, use default duration of 5 seconds
-      duration = 5;
-    }
-    slot.disabled = true; // disable the slot button
-    window.location.href = "http://localhost:8081/parking/register.jsp"; 
-    var timestamp = new Date().getTime(); // get the current timestamp
-    localStorage.setItem(slotId, timestamp + ',' + duration); // set a local storage item with the slot id as the key and the timestamp and duration as the value
-    setTimeout(function() {
-      slot.disabled = false; // enable the slot button after the duration has elapsed
-      localStorage.removeItem(slotId); // remove the local storage item for the slot id
-    }, duration * 1000); // convert duration from seconds to milliseconds
-  }
-  
-  // check local storage on page load
-  window.onload = function() {
-    var slot1 = localStorage.getItem('slot1');
-    var now = new Date().getTime();
-    if (slot1) {
-      var slot1Array = slot1.split(',');
-      var slot1Timestamp = parseInt(slot1Array[0]);
-      var slot1Duration = parseInt(slot1Array[1]);
-      if (now - slot1Timestamp < slot1Duration * 1000) { // if the slot was disabled less than the duration time ago
-        document.getElementById('slot1').disabled = true;
-        setTimeout(function() {
-          document.getElementById('slot1').disabled = false;
-          localStorage.removeItem('slot1');
-        }, slot1Duration * 1000 - (now - slot1Timestamp)); // calculate the remaining time to wait before enabling the slot button again
-      }
-    }
-  }
-</script>
+<script src="index.js"></script>
 
 </body>
 </html>
