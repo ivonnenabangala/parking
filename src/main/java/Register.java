@@ -7,9 +7,13 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
- 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * Servlet implementation class Register
  */
@@ -43,16 +47,14 @@ public class Register extends HttpServlet {
  String plateNo=request.getParameter("plateNo");
  String street=request.getParameter("street");
  
+ 
  try {
      Class.forName("com.mysql.jdbc.Driver");
      Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/parking","root","password");
          Statement stmt = con.createStatement();
          stmt.executeUpdate("insert into member (name,contact,street)values('"+name+"','"+contact+"','"+street+"') ");
          stmt.executeUpdate("insert into vehicle (plateNo,vehicleType)values('"+plateNo+"','"+vehicleType+"') ");
-         
          System.out.println("Data is inserted successfully in both tables");
-         
-         
    } catch (ClassNotFoundException e) {
      // TODO Auto-generated catch block
 	   

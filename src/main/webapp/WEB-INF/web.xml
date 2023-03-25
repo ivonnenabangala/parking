@@ -36,4 +36,14 @@
     <servlet-name>LoginController</servlet-name>
     <url-pattern>/LoginController</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Parkingslotcontroller</display-name>
+    <servlet-name>Parkingslotcontroller</servlet-name>
+    <servlet-class>controller.Parkingslotcontroller</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Parkingslotcontroller</servlet-name>
+    <url-pattern>/Parkingslotcontroller</url-pattern>
+  </servlet-mapping>
 </web-app>
