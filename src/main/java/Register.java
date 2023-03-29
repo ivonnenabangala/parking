@@ -52,7 +52,7 @@ public class Register extends HttpServlet {
      Class.forName("com.mysql.jdbc.Driver");
      Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/parking","root","password");
          Statement stmt = con.createStatement();
-         stmt.executeUpdate("insert into member (name,contact,street)values('"+name+"','"+contact+"','"+street+"') ");
+         stmt.executeUpdate("insert into driver (name,contact,street)values('"+name+"','"+contact+"','"+street+"') ");
          stmt.executeUpdate("insert into vehicle (plateNo,vehicleType)values('"+plateNo+"','"+vehicleType+"') ");
          System.out.println("Data is inserted successfully in both tables");
    } catch (ClassNotFoundException e) {

@@ -10,47 +10,54 @@
 		border: 2px solid rgb(77, 222, 227);
         border-radius: 4px;
 	}
+	select{
+		border: 2px solid rgb(77, 222, 227);
+        border-radius: 4px;
+	}
+	
 </style>
 <title>Insert title here</title>
 </head>
 <body>
-<div align="center">
+  <div align="center">
 	<div class="card" style="margin-top: 72px;">
       <div class="container" style="align-items: center;">
-		<form action="Register" method="post" style="padding: 50px;">
+		<form action="Register" method="post" style="padding: 20px;">
 			<h2>Slot Reservation Form</h2>
+			<img src="slots.jpg" alt="Slots" style="width:auto;height:170px;margin-right:15px;">
 			 <table style="border-spacing: 0 12px;">
 			 <tr>
 			 <td>Full Name</td>
-			 <td><input type="text" name="name"></td>
+			 <td><input type="text" name="name" required></td>
 			 </tr>
 			 <tr>
 			 <td>Phone Number</td>
-			 <td><input type="text" name="contact" placeholder="07..."></td>
+			 <td><input type="text" name="contact" required></td>
 			 </tr>
 			 <tr>
-			 <td>Parking Street</td>
+			 <td>Parking Lot</td>
 			 <td>
-			 <select name="street" id="street">
-				<option value="tomMboya">Tom Mboya</option>
-				<option value="kenyatta">Kenyatta</option>
-				<option value="haileSelassie">Haile Selassie</option>
+			 <select name="street" id="street" required>
+				<option value="Stage">Stage</option>
+				<option value="Gate-G">Gate G</option>
+				<option value="Lowlands">Lowlands Hotel</option>
+				<option value="Courts">Chuka Law Courts</option>
+				<option value="Magunas">Magunas</option>
 			 </select>
 			 </td>
 			 </tr>
 			 <tr>
 			 <td>Vehicle Type</td>
 			 <td>
-			 <select name="vehicleType" id="vehicleType">
+			 <select name="vehicleType" id="vehicleType" required>
 				<option value="car">Car</option>
-				<option value="bike">Motorbike/Bicycle</option>
 				<option value="truck">Truck</option>
 			 </select>
 			 </td>
 			 </tr>
 			 <tr>
 			 <td>Plate Number</td>
-			 <td><input type="text" name="plateNo"></td>
+			 <td><input type="text" name="plateNo" required></td>
 			 </tr>
 			 <tr>
 			 <tr>
@@ -62,5 +69,5 @@
  </div>
  </div>
  </div>
-</body>
+ </body>
 </html>

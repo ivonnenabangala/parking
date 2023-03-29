@@ -3,7 +3,7 @@ function disableSlot(slotId) {
     var slot = document.getElementById(slotId);
     var duration = document.getElementById('duration').value;
     if (!duration) { // if no duration is entered, use default duration of 5 seconds
-      duration = 5;
+      duration = 1;
     }
     slot.disabled = true; // disable the slot button
     window.location.href = "http://localhost:8081/parking/register.jsp"; 

@@ -35,14 +35,11 @@ body {
 <title>Parking Slot Identification System</title>
 </head>
 <body>
-<div class="head" style="text-align: center; margin-top: 20px;">
-<h1>Parking Slot Identification System</h1>
-<div style="text-align: right">
-<a href="adminlogin.jsp"><button class="button" style="background-color: rgb(189, 85, 161);">Login</button></a>
-</div>
+<div class="head" style="text-align: center; margin-top: 10px;">
+<h1 style="color: rgb(68, 79, 87);">Parking Slot Identification System</h1>
     <p>
-    <button class="button">Vacant</button>Vacant Slot
-    <button class="button" style="background-color: rgb(179, 181, 181);" disabled>Occupied</button>Occupied Slot
+    <button class="button">Vacant</button>
+    <button class="button" style="background-color: rgb(179, 181, 181);" disabled>Occupied</button>
     </p>
 </div>
 <div class="row" style="text-align: center;">
@@ -51,7 +48,7 @@ body {
     <h3><b>Ndagani Market</b></h3> 
     <input type="text" id="duration" placeholder="Enter parking duration in minutes">
   	<div class="row">
-	  <div class="col">Gate A Lot
+	  <div class="col">Stage Lot
 	  	<p>
 	  	<button class="button" id="slot1" onclick="disableSlot('slot1')">A1</button>
 		<button class="button" id="slot2" onclick="disableSlot('slot2')">A2</button>
@@ -82,7 +79,10 @@ body {
 		 </p>
 	  </div>
 	</div>
-    <p>Architect and Engineer</p> 
+    <p>
+     This is a County Government parking space. Daily charges for this area is <b>Ksh. 50 </b> 
+    </p> 
+    <p>Dial <b>*404#</b> to make payments after reservation.</p>
   </div>
 </div>
 <div class="card col-sm-5">
@@ -115,7 +115,10 @@ body {
 	     </p>
 	  </div>
 	</div>
-    <p>Architect and Engineer</p> 
+    <p>
+     This is a County Government parking space. Daily charges for this area is <b>Ksh. 50 </b> 
+    </p> 
+    <p>Dial <b>*404#</b> to make payments after reservation.</p>
   </div>
 </div>
 </div>
